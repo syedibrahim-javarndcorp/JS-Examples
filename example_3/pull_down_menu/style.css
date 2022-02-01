@@ -1,13 +1,17 @@
+body{
+  text-align: center;
+}
 .dropbtn {
-    background-color: green;
-    color: white;
+    background-color: gray;
+    border-radius: 15%;
+    color: black;
     padding: 14px;
     font-size: 16px;
     cursor: pointer;
   }
   
   .dropbtn:hover {
-    background-color: brown;
+    background-color: yellow;
   }
   
   .dropdown {
@@ -32,7 +36,7 @@
   }
   
   .dropdown a:hover {
-     background-color: #ddd;
+     background-color: rgb(240, 21, 21);
    }
   
   .show {
