@@ -1,4 +1,4 @@
-function syed() {
+function validation() {
   var x = document.forms["saveForm"]["fname"].value;
   var y = document.forms["saveForm"]["lname"].value;
   var z = document.forms["saveForm"]["phone"].value;
