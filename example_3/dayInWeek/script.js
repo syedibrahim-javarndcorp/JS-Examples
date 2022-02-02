@@ -3,11 +3,11 @@ var d = new Date();
 var month = d.getMonth();
 var year = d.getFullYear();
 
-// console.log(month, year)
+var dayOfMothn = (number, month, year) => {
 
-var dayOfMothn = (number,month,year) => {
-    return new Date(number,month  ,year).toLocaleString('en-US',{weekday:"long"});
+  return new Date(number - 1 , month, year).toLocaleString("en-US", {
+    weekday: "short",
+  });
+};
 
-}
-
-document.querySelector(".date").innerHTML=dayOfMothn(number -1 ,month  ,year);
+document.querySelector(".date").innerHTML = dayOfMothn(number, month, year);
