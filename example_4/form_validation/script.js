@@ -14,6 +14,7 @@ function syed() {
     alert("Phone number must be filled out");
     document.saveForm.phone.focus();
     return false;
-  } 
-  
+  } else if (x != "" && y != "" && z != "") {
+    alert("Thank you");
+  }
 }
