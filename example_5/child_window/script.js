@@ -2,6 +2,6 @@ function myFunction() {
   window.open(
     "https://google.com",
     "home",
-    "width=550,height=170,0,status=0"
+    "width=700,height=500,0,status=0"
   );
 }
