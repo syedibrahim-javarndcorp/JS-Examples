@@ -1,4 +1,4 @@
-// 
+// countapi.xyz api
 
 const countEl = document.getElementById('count');
 
