@@ -6,5 +6,5 @@ div.marquee {
   div.marquee-text {
     white-space: nowrap;
     display: inline;
-    width: auto;
+    width: 20%;
   }
