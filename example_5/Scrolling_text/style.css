@@ -1,0 +1,10 @@
+div.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    direction: rtl;
+  }
+  div.marquee-text {
+    white-space: nowrap;
+    display: inline;
+    width: auto;
+}
