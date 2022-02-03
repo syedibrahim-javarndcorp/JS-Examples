@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Multiple Choices</title>
+    </head>
+   <body>
+    <form name = "menuForm">
+        <table>
+            <tr>
+                <td colspan = "2" align = "center">
+                    <h2>Restaurant Menu Details</h2>
+                </td>
+            </tr>
+            <tr>
+                <td> Major Dishes:</td>
+                <td>
+                    <select id = "major" size = "5" multiple = "multiple">
+                        <option value = "100"> Vegetable Pulav</option>
+                        <option value = "150"> Hyderabadi Biriyani</option>
+                        <option value = "50"> Roti with Curry </option>
+                        <option value = "80"> Roti with Channa </option>
+                        <option value = "50"> Fried Rice</option>
+                        <option value = "50"> Noodels</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Stock Available </td>
+                <td> <select id = "starters" size = "8" multiple = "multiple">
+                    <option value = "80"> Gobi Manchurian </option>
+                    <option value = "40"> Veg Clear Soup </option>
+                    <option value = "45"> Non-Veg Soup </option>
+                    <option value = "30"> Masala Papad </option>
+                    <option value = "100"> Vegetable Pulav</option>
+                    <option value = "150"> Hyderabadi Biriyani</option>
+                    <option value = "50"> Roti with Curry </option>
+                    <option value = "80"> Roti with Channa </option>
+                    <option value = "50"> Fried Rice</option>
+                </td>
+            </tr>
+            <tr>
+                <td>Soft Drinks</td>
+                <td>
+                    <select id = "soft" size = "6">
+                        <option value = "20"> Pepsi</option>
+                        <option value = "25"> Coke </option>
+                        <option value = "30"> Lime Soda </option>
+                        <option value = "90"> Milk Shake </option>
+                        <option value = "80"> Fresh Juice </option>
+                        <option value = "40"> Lessi </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2" align = "center">
+                    <textarea id = "ordereditems" rows = "10" cols = "40">
+                   
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type = "button" value = "Find total Cost" onclick = "findcost()" />
+                </td>
+                <td>
+                    <input type = "reset" value = "Clear" />
+                </td>
+            </tr>
+        </table>
+        <H3>Hold Ctrl to select mulitple choices</H3>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
