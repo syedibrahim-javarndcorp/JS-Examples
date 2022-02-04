@@ -1,6 +1,5 @@
 $(document).ready(function() {
     var marquee = $('div.marquee');
-    console.log(marquee);
     marquee.each(function() {
         var mar = $(this),indent = mar.width();
         mar.marquee = function() {
